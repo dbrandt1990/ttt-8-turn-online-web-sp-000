@@ -16,7 +16,7 @@ def position_taken?(board, index)
   
   check = board[index]
   if check = "X" || check = "Y" || check = -1 
-    true 
+    false
   else
     false
   end
