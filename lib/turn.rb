@@ -44,7 +44,7 @@ def turn(board)
     move(board, index, player_char = "X")
     display_board(board)
   else
-   puts "Please enter a valid move."
+    puts "Please enter a valid move."
     turn(board)
     end
 end
