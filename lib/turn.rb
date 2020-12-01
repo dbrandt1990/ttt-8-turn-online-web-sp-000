@@ -15,10 +15,10 @@ end
 def position_taken?(board, index)
   
   check = board[index]
-  if check = "X" || check = "Y" || check = -1 
+  if check = " " || check = "" || check = nil 
     false
   else
-    false
+    true
   end
 end
 
