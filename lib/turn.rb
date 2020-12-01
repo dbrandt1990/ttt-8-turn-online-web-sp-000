@@ -7,10 +7,14 @@
 end
 
 def input_to_index(input)
-  if()
+  
   temp = input.to_i
+  if temp == "ArgumentError"
+    return -1
+  else
   index = temp - 1
   return index
+ end
 end
 
 def position_taken?(board, index)
