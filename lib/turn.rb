@@ -12,7 +12,7 @@ def input_to_index(input)
   return index
 end
 
-def position_taken?(board, input)
+def position_taken?(board, index)
   
   check = board[index]
   if check = "X" || check = "Y" || check = -1 
