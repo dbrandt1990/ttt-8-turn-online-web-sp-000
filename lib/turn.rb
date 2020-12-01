@@ -13,7 +13,7 @@ def input_to_index(input)
 end
 
 def position_taken?(board, input)
-  index = input_to_index(input)
+  
   check = board[index]
   if check = "X" || check = "Y" || check = -1 
     true 
