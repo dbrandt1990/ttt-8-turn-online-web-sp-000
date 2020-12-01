@@ -7,6 +7,7 @@
 end
 
 def input_to_index(input)
+  if()
   temp = input.to_i
   index = temp - 1
   return index
