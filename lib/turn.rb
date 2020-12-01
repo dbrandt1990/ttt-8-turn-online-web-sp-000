@@ -27,7 +27,8 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?(board, index)
+def valid_move?(board, input)
+  index = input_to_index(input)
   if !position_taken?(board, index) && index.between?(0,8)
       true
   else
